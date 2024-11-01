@@ -21,6 +21,6 @@ jobs:
       - name: AutoCorrect
         uses: huacnlee/autocorrect-action@v2
         with:
-          use_npm: true
+          args: --fix
 
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
